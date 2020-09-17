@@ -7,7 +7,7 @@ package jptvr19myarray;
 
 /**
  *
- * @author sillamae kutsekool
+ * @author Melnikov
  */
 public class JPTVR19MyArray {
 
@@ -15,8 +15,10 @@ public class JPTVR19MyArray {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        System.out.println("--- Начало программы ---");
         App app = new App();
         app.run();
+        System.out.println("=== конец программы ===");
     }
-
+    
 }
